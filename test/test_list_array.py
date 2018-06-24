@@ -2,7 +2,7 @@
 import pytest
 import sys
 sys.path.append('../Schrodinger')
-from schrodinger.demo_list import *
+from schrodinger.list_and_array import *
 
 
 class TestDemoListCommon(object):

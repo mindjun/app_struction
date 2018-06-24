@@ -2,6 +2,6 @@ import pytest
 import sys
 sys.path.append('../Schrodinger')
 
-from test.test_demo_list import *
+from test.test_list_array import *
 
 pytest.main()
