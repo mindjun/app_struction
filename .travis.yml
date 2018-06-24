@@ -14,5 +14,5 @@ install:
 script:
   - pytest
 after_success:
-  - pytest --cov=schrodinger test/
+  - pytest --cov=Schrodinger test/
   - coveralls
