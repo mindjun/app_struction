@@ -1,0 +1,122 @@
+    1  cd g
+    2  cd g:
+    3  cd Workspace/
+    4  ls
+    5  cd Python/
+    6  cd app_struction/
+    7  ls
+    8  git remote -v
+    9  git flow
+   10  git push -u origin v0.0.1_develop 
+   11  git status
+   12  git add
+   13  git add .
+   14  git status
+   15  git commit -m 'add struction'
+   16  git pull origin v0.0.1_develop 
+   17  git status
+   18  git push
+   19  history 
+   20  ls
+   21  vim README.md 
+   22  git add README.md 
+   23  git status
+   24  history 
+   25  git commit -m 'add readme'
+   26  git pull origin v0.0.1_develop 
+   27  git pull origin v0.0.1_develop 
+   28  ls
+   29  cat README.md 
+   30  vim README.md 
+   31  git add README.md 
+   32  git status 
+   33  history 
+   34  git commit -m 'add to develop'
+   35  git pull origin v0.0.1_develop 
+   36  ls
+   37  cd application/
+   38  ls
+   39  cd business/
+   40  ls
+   41  touch app.py
+   42  ls
+   43  git add app.py 
+   44  git commit -m 'add a application file'
+   45  history 
+   46  git status
+   47  git push
+   48  history 
+   49  git checkout -b v0.0.2_develop
+   50  git push origin v0.0.2_develop 
+   51  ls
+   52  vim app.py 
+   53  git add app.py 
+   54  git commit -m 'add a flask application'
+   55  git tag -m 'first tag, for app.py' v0.0.0180520
+   56  git push origin v0.0.2_develop 
+   57  ls
+   58  vim app.py 
+   59  ls
+   60  git add app.py 
+   61  git commit -m 'fix app error'
+   62  git push origin v0.0.2_develop 
+   63  git checkout master 
+   64  git checkout v0.0.2_develop 
+   65  ls
+   66  git checkout -b release_0.0.1
+   67  git push origin release_0.0.1 
+   68  git branch -d release_0.0.1 
+   69  git branch -d release_0.0.1 
+   70  git push origin origin/release_0.0.1 
+   71  git checkout release_0.0.1 
+   72  git branch -d release_0.0.1 
+   73  git branch -d release_0.0.1 
+   74  git push origin origin/release_0.0.1 
+   75  git branch -r
+   76  git branch -r -d origin/release_0.0.1 
+   77  git push origin release_0.0.1
+   78  git push origin :release_0.0.1
+   79  git branch -r
+   80  git tag -n1 -l v*
+   81  git push origin v0.0.0180520
+   82  git branch -r
+   83  git branch -r
+   84  git branch 
+   85  git checkout master 
+   86  git merge v0.0.2_develop 
+   87  git diff
+   88  ls
+   89  cd .././
+   90  ls
+   91  cd ../
+   92  ls
+   93  vim README.md 
+   94  git merge v0.0.2_develop 
+   95  ls
+   96  vim README.md 
+   97  git merge v0.0.2_develop 
+   98  ls
+   99  git checkout master 
+  100  git reset --merge
+  101  ls
+  102  vim README.md 
+  103  git merge v0.0.2_develop 
+  104  ls
+  105  git add README.md 
+  106  git commit -m 'test merge'
+  107  git push origin master 
+  108  git merge v0.0.2_develop 
+  109  ls
+  110  git branch -r
+  111  git push origin master 
+  112  git branch -r
+  113  git branch -d v0.0.2_develop 
+  114  git branch -d v0.0.1_develop 
+  115  git push origin :v0.0.2_develop
+  116  git push origin :v0.0.1_develop
+  117  git branch -r
+  118  git branch -r
+  119  git branch 
+  120  history 
+  121  ls
+  122  history >> git_operation_log.txt
