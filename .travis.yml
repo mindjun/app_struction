@@ -12,5 +12,6 @@ install:
 script:
   - pytest
 after_success:
+# conf the code path need to test coveralls
   - pytest --cov=schrodinger test/
   - coveralls
