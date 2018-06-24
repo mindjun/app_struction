@@ -62,6 +62,6 @@ def find_median_sorted_arrays(nums1, nums2):
     mid2 = int((len3 - 1) / 2)
 
     if len3 % 2 == 0:
-        return (nums3[mid1] + nums3[mid2]) / 2
+        return float((nums3[mid1] + nums3[mid2]) / 2)
     else:
         return nums3[mid2]
