@@ -5,7 +5,7 @@ sys.path.append('../Schrodinger')
 from schrodinger.demo_list import *
 
 
-class DemoListCommon(object):
+class TestDemoListCommon(object):
     def test_find_median_sorted_arrays_01(self):
         nums1 = [1, 2]
         nums2 = [3, 4]
