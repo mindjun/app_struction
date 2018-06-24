@@ -25,7 +25,6 @@ def find_median_sorted_arrays(nums1, nums2):
     len2 = len(nums2)
     len3 = len1 + len2
 
-
     nums3 = list()
     # index1, index2, index3 = 0, 0, 0
     #         while index1<len1 and index2<len2:
