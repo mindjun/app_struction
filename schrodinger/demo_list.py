@@ -20,8 +20,10 @@ def find_median_sorted_arrays(nums1, nums2):
     2.0
 
     """
-    if not (isinstance(nums1, list) and isinstance(nums2, list)):
-        assert TypeError('nums1 and nums2 must be a list, but we got an {0} and {1}'.format(type(nums1), type(nums2)))
+    if not isinstance(nums1, list):
+        raise TypeError('nums1 must be a list, but we got an {0}'.format(type(nums1)))
+    elif not isinstance(nums2, list):
+        raise TypeError('nums2 must be a list, but we got an {0}'.format(type(nums2)))
 
     # 先合并为一个列表，再求中位数
     len1 = len(nums1)
