@@ -4,14 +4,11 @@
 def find_median_sorted_arrays(nums1, nums2):
     """
     给定两个大小为 m 和 n 的有序数组 nums1 和 nums2
-
     :param:
         * nums1: List[int]
         * nums2: List[int]
-
     :return:
         * median: (float) 数组的中位数
-
     代码示例::
 
     >>> nums1 = [1, 2]
