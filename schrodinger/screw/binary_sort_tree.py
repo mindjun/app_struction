@@ -190,13 +190,12 @@ class BinarySortTree(object):
         # print(node.data)
         # yield node.data
 
-    
+
 if __name__ == '__main__':
     list1 = [46, 29, 12, 32, 59, 98, 57, 92]
     bin_sort = BinarySortTree()
     for item in list1:
         bin_sort.insert(item)
-    # node_map = list((map(bin_sort.insert, list1)))
     item_list = [item.data for item in bin_sort]
     print('非递归中序遍历： {}'.format(item_list))
     print('非递归前序遍历： {}'.format([item.data for item in bin_sort.pre_travel()]))
